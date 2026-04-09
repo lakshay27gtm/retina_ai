@@ -11,6 +11,8 @@ import timm
 import gradio as gr
 import torch.nn as nn
 import torch.optim as optim
+import os
+os.system("pip install torchvision")
 
 # Hardcoded classes as they are derived from the dataset during training
 classes = ['mild', 'moderate', 'no_dr', 'proliferate_dr', 'severe']
