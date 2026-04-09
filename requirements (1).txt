@@ -8,3 +8,6 @@ scikit-learn
 matplotlib
 seaborn
 gradio
+torch
+torchvision
+torchaudio
